@@ -5,7 +5,7 @@ Deploy to Prisma using GH Action.
 
 ## Inputs
 
-* `args` - **Required**. This is the argument you want to use for `prisma`'s cli (E.g. `prisma deploy --force`)
+* `args` - **Required**. This is the argument you want to use for `prisma`'s cli (E.g. `deploy --force`)
 
 
 ## Environment variables
