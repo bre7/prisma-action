@@ -10,7 +10,7 @@ LABEL com.github.actions.description="Deploy to Prisma"
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="gray-dark"
 
-RUN yarn global add prisma@1.32.2
+RUN npm i -g prisma@1.32.2
 
 COPY LICENSE README.md /
 COPY "entrypoint.sh" "/entrypoint.sh"
