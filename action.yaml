@@ -1,0 +1,8 @@
+name: 'GitHub Action for Prisma'
+description: 'deploy to Prisma Action'
+branding:
+  icon: 'package'
+  color: 'gray-dark'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
